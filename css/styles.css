@@ -631,7 +631,7 @@ justify-content: space-between;
 .nav {
     background: #000000;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     padding: 0 1rem;
     align-items: center;
@@ -676,7 +676,9 @@ justify-content: space-between;
 }
 
 @media screen and (min-width: 768px) {
-   
+   nav {
+       justify-content: space-around
+   }
     .nav__toggler {
         display: none;
     }
