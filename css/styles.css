@@ -628,18 +628,20 @@ justify-content: space-between;
 }
 
 /* Nav*/
+header {
+     position: fixed;
+    z-index: 2;
+    width: 100%;
+    top: 0; 
+    padding-right: 16px;
+}
 .nav {
     background: #000000;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0 1rem;
-    align-items: center;
-    position: fixed;
-    z-index: 2;
-    width: 100%;
-    top: 0; 
-    padding-right: 16px;
+    align-items: center;  
 }
 
 .nav__list {
