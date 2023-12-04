@@ -636,9 +636,10 @@ justify-content: space-between;
     padding: 0 1rem;
     align-items: center;
     position: fixed;
-    z-index: 999;
+    z-index: 2;
     width: 100%;
-    top: 0;
+    top: 0; 
+    padding-right: 16px;
 }
 
 .nav__list {
