@@ -628,7 +628,7 @@ justify-content: space-between;
 }
 
 /* Nav*/
-header {
+header.nav-container {
      position: fixed;
     z-index: 2;
     width: 100%;
@@ -678,10 +678,7 @@ header {
     transform: translateY(7px);
 }
 
-@media screen and (min-width: 768px) {
-   nav {
-       justify-content: space-around
-   }
+@media screen and (min-width: 768px) {  
     .nav__toggler {
         display: none;
     }
@@ -697,6 +694,11 @@ header {
     .nav__item {
         border: 0;
     }
+}
+@media screen and (min-width: 1024px) {
+   .nav {
+       justify-content: space-around
+   }
 }
 
 /* Hero */
