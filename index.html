@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav collapsible">
+        <a class="nav__brand" href="/"
+          ><img src="images/logo.png" alt="Company logo"
+        /></a>
+        <svg class="icon icon--white nav__toggler">
+          <use xlink:href="images/sprite.svg#menu"></use>
+        </svg>
+
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item"><a href="#">Home</a></li>
+          <li class="nav__item"><a href="#">Courses</a></li>
+          <li class="nav__item"><a href="#">About</a></li>
+          <li class="nav__item"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="block block--dark block--skewed-both hero">
+      <div class="container grid grid--1x2">
+        <header class="block__header hero__content" data-aos="fade-right">
+          <h1 class="block__heading">ትምህርቲ ፣ ፈጠራነት ፣ ዕብየት</h1>
+          <p class="hero__tagline">ዝበለጸ ወፍሪ ኣብ ህይወትኩም ክትገብሩ ድልዋት ዲኹም፧</p>
+          <a href="#" class="btn btn--accent btn--stretched">Get started</a>
+        </header>
+        <img
+          class="hero__image"
+          src="images/banner.png"
+          alt=""
+          data-aos="zoom-in"
+        />
+      </div>
+    </section>
+
+    <section class="block container block-intro" data-aos="fade-up">
+      <header class="block__header">
+        <h2>እንቛዕ ደሓን መጻእኩም!</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum esse
+          quidem illo ad tenetur nam aliquid, est natus blanditiis molestias.
+        </p>
+      </header>
+      <div class="input-group">
+        <input
+          type="text"
+          name="search"
+          id="search"
+          class="input"
+          placeholder="Course ንምድላይ ኣብዚ ጸሓፉ"
+        />
+        <button class="btn btn--accent">
+          <svg class="icon icon--white">
+            <use xlink:href="images/sprite.svg#search"></use>
+          </svg>
+          Search
+        </button>
+      </div>
+
+      <ul class="list block-popular__courses">
+        <li class="badge badge--secondary">HTML/CSS</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Java</li>
+        <li>C#</li>
+        <li>Angular</li>
+      </ul>
+    </section>
+
+    <section class="block container block-plans" data-aos="fade-up">
+      <div class="grid grid--1x3">
+        <div class="plan">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <h3 class="plan__name">Silver</h3>
+              <span class="plan__price">£25</span>
+              <span class="plan__type">/month</span>
+              <span class="badge badge--secondary badge--small">15% OFF</span>
+              <span class="plan__description"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit.</span
+              >
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Access to full content library</li>
+                <li class="list__item">Access to private community</li>
+                <li class="list__item">Acess to live project demos</li>
+                <li class="list__item">Certificate of completion</li>
+              </ul>
+              <button class="btn btn--outline btn--block">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="plan plan--poppular">
+          <div class="card card--primary">
+            <header class="card__header">
+              <h3 class="plan__name">Gold</h3>
+              <span class="plan__price">£50</span>
+              <span class="plan__type">/month</span>
+              <span class="badge badge--primary badge--small">15% OFF</span>
+              <span class="plan__description"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit.</span
+              >
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Everything from Silver</li>
+                <li class="list__item">Access to private community</li>
+                <li class="list__item">Acess to live project demos</li>
+                <li class="list__item">Certificate of completion</li>
+                <li class="list__item">Acess to live project demos</li>
+              </ul>
+              <button class="btn btn--outline btn--block">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="plan">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <h3 class="plan__name">Platinum</h3>
+              <span class="plan__price">£75</span>
+              <span class="plan__type">/month</span>
+              <span class="badge badge--secondary badge--small">15% OFF</span>
+              <span class="plan__description"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit.</span
+              >
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Everything from Gold</li>
+                <li class="list__item">Access to private community</li>
+                <li class="list__item">Acess to live project demos</li>
+                <li class="list__item">Acess to live project demos</li>
+                <li class="list__item">Certificate of completion</li>
+              </ul>
+              <button class="btn btn--outline btn--block">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block container">
+      <header class="block__header" data-aos="fade-up">
+        <h2>Why study with us?</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+          necessitatibus doloremque, dolorem magni explicabo officiis, culpa
+          beatae architecto officia illo, quaerat optio nostrum repellat ea
+          perspiciatis quasi maxime cum. Consectetur ducimus omnis eos eum
+          veritatis excepturi maxime illum id asperiores?
+        </p>
+      </header>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-right">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use xlink:href="images/sprite.svg#Programmer"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Expert-led video courses</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eos
+            nisi adipisci nobis rerum itaque doloremque ipsa tenetur voluptate.
+            Vel laudantium ab magni earum, quod suscipit consequuntur quas harum
+            sit, quaerat, rerum enim soluta recusandae. Ea est minus aut! Neque.
+          </p>
+          <a href="#" class="link-arrow">Learn more</a>
+        </div>
+        <img
+          class="feature__image"
+          src="images/video.jpg"
+          alt="easy"
+          data-aos="zoom-in-left"
+        />
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-left">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use xlink:href="images/sprite.svg#Maintenance"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">24/7 Customer Support</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
+            cupiditate natus? Repellendus, sint veritatis ipsa error id
+            provident ea dolorum velit eos harum quo nobis iusto perspiciatis.
+            Odit ipsa sint, excepturi labore quibusdam qui iure cumque
+            laboriosam quo culpa blanditiis.
+          </p>
+          <a href="#" class="link-arrow">Learn more</a>
+        </div>
+        <img
+          class="feature__image"
+          src="images/support.jpg"
+          alt="easy"
+          data-aos="zoom-in-right"
+        />
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-right">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use xlink:href="images/sprite.svg#Code Development"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Interactive learning</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quam
+            quisquam consectetur sapiente laboriosam rerum nihil, voluptatum
+            dicta cupiditate veritatis animi hic neque deserunt illum
+            necessitatibus aut inventore tempore! Suscipit ipsum tenetur ratione
+            vel. Et culpa voluptatem ab saepe odio.
+          </p>
+          <a href="#" class="link-arrow">Learn more</a>
+        </div>
+        <img
+          class="feature__image"
+          src="images/interactive.jpg"
+          alt="easy"
+          data-aos="zoom-in-left"
+        />
+      </article>
+    </section>
+
+    <section class="block container" data-aos="zoom-in">
+      <header class="block__header">
+        <h2>Message from Instructor</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+          doloremque dolore vero obcaecati commodi, corporis cum similique
+          blanditiis repellendus voluptates?
+        </p>
+      </header>
+      <div class="container">
+        <div class="card testimonial">
+          <div class="grid grid--1x2">
+            <div class="testimonial__image">
+              <img src="images/instructor.jpg" alt="Instructor photo" />
+              <span class="icon-container icon-container--accent">
+                <svg class="icon icon--white icon--small">
+                  <use xlink:href="images/sprite.svg#quotes"></use>
+                </svg>
+              </span>
+            </div>
+
+            <blockquote class="quote">
+              <p class="quote__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+                voluptates maxime, repudiandae reprehenderit quo ipsa molestiae,
+                repellendus tempore pariatur incidunt adipisci iusto facere
+                doloremque magnam asperiores sunt esse beatae nisi? Consequatur
+                quae odit quas ut totam ducimus atque officia.
+              </p>
+              <footer>
+                <div class="media">
+                  <div class="media__image">
+                    <svg class="icon icon--primary quote__line">
+                      <use xlink:href="images/sprite.svg#line"></use>
+                    </svg>
+                  </div>
+                  <div class="media__body">
+                    <h3 class="media__title quote__author">
+                      Natnael Ghilazghi
+                    </h3>
+                    <p class="quote__organisation">Instructor</p>
+                  </div>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container" data-aos="zoom-in">
+      <div class="callout callout--primary callout-signup">
+        <div class="grid grid--1x2">
+          <div class="callout__content">
+            <h2 class="callout__heading">Ready to Get Started?</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos quod
+              doloribus quasi consequatur facilis animi rem voluptatum tempore
+              iste provident deleniti, veniam, placeat ipsum hic aliquid
+              delectus iusto, pariatur vel?
+            </p>
+          </div>
+          <a href="#" class="btn btn--secondary btn--stretched">Get Started</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="block block--dark footer">
+      <div class="container grid footer__sections">
+        <section class="collapsible collapsible--expanded footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading">Home</h2>
+            <svg class="icon icon--white collapsible_chervon">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Why Us</a></li>
+              <li><a href="#">Price Plans</a></li>
+              <li><a href="#">Reviews</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading">Courses</h2>
+            <svg class="icon icon--white collapsible_chervon">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Lorem ipsum</a></li>
+              <li><a href="#">Lorem ipsum</a></li>
+              <li><a href="#">Lorem ipsum</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading">About</h2>
+            <svg class="icon icon--white collapsible_chervon">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Lorem ipsum</a></li>
+              <li><a href="#">Lorem ipsum</a></li>
+              <li><a href="#">Lorem ipsum</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading">Contact</h2>
+            <svg class="icon icon--white collapsible_chervon">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Lorem ipsum</a></li>
+              <li><a href="#">Lorem ipsum</a></li>
+              <li><a href="#">Lorem ipsum</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="footer__logo">
+          <img src="images/logo.png" alt="logo" />
+          <p class="footer__copyright">Copyright 2023</p>
+        </section>
+      </div>
+    </footer>
+
+    <script>
+      const collapsibles = document.querySelectorAll(".collapsible");
+      collapsibles.forEach((item) =>
+        item.addEventListener("click", function () {
+          this.classList.toggle("collapsible--expanded");
+        })
+      );
+    </script>    
+  </body>
+</html>
